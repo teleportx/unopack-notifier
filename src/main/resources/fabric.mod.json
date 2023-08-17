@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "unopack-notifier",
+  "version": "${version}",
+  "name": "unopack-notifier",
+  "description": "Notify mod for unocpack.net",
+  "authors": [
+    "_Teleport"
+  ],
+  "contact": {
+    "repo": "https://github.com/teleportx/unopack-notifier",
+    "homepage": "https://unopack.net/"
+  },
+  "license": "MIT",
+  "icon": "assets/unopack-notifier/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.xstl.unopacknotifier.client.Unopack_notifierClient"
+    ],
+    "main": [
+      "ru.xstl.unopacknotifier.Unopack_notifier"
+    ]
+  },
+  "mixins": [
+    "unopack-notifier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+
+    "minecraft": "${minecraft_version}"
+  }
+}
