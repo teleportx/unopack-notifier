@@ -1,0 +1,41 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/unopack.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": ["\uE150"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/ronanru.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": ["\uE151"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/uuuuuno.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": ["\uE152"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/question_mark.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": ["\uE153"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/exclamation_point.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": ["\uE154"]
+		}
+
+
+	]
+}
