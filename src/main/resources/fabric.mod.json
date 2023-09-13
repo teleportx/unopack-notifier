@@ -3,7 +3,7 @@
   "id": "unopack-notifier",
   "version": "${version}",
   "name": "unopack-notifier",
-  "description": "Notify mod for unocpack.net",
+  "description": "Notify mod for unopack.net",
   "authors": [
     "_Teleport"
   ],
